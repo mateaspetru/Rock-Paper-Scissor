@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let the game begin</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./PNG/imgbin-mask-youtube-jigsaw-billy-the-puppet-mask-4Xcm3hts5k92deGMhgHDAM17A.jpg" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="text">
+        <h1>Rock, Paper, Scissor</h1>
+      </div>
+
+      <div class="rockPaperScissor">
+        <div class="player">
+          <img id="rock" src="./PNG/rock.png" alt="rock" />
+          <img id="paper" src="./PNG/paper.png" alt="paper" />
+          <img id="scissor" src="./PNG/scissors.png" alt="scissor" />
+        </div>
+        <div class="scoreAndName">
+          <div class="enterName">
+            <label for="name"><h2>Enter your name</h2> </label>
+
+            <input type="text" id="name" name="name" />
+            <div class="buttons">
+              <button class="btn">
+                <p
+                  data-start="good luck!"
+                  data-text="start!"
+                  data-title="new game"></p>
+              </button>
+            </div>
+          </div>
+          <div class="score">
+            <table>
+              <tr class="table">
+                <th id="yourName">Player</th>
+                <th>JigSaw</th>
+              </tr>
+              <tr class="table">
+                <td id="player-score">0</td>
+                <td id="computer-score">0</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="computer">
+          <img src="./PNG/rock.png" alt="rock" />
+          <img src="./PNG/paper.png" alt="paper" />
+          <img src="./PNG/scissors.png" alt="scissor" />
+        </div>
+      </div>
+      <div class="resut"><p id="result">Result</p></div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
