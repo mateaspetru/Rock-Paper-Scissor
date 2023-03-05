@@ -1,1 +1,2 @@
 aceta este un commit facut din terminal.
+acesta va fi facut din vs code, partea laterala
