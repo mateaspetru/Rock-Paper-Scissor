@@ -309,3 +309,12 @@ th {
 .buttons button:focus {
   outline: 0;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2em;
+  }
+  #result {
+    font-size: 1em;
+    padding: 20px;
+  }
+}
