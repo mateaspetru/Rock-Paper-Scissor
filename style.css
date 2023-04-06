@@ -5,10 +5,11 @@
 }
 
 h1 {
-  font-size: 78px;
+  font-size: 3em;
 }
 html {
   background: #223;
+  height: 100vh;
 }
 
 .mainContainer {
@@ -97,11 +98,12 @@ img:hover {
   justify-content: center;
   align-items: center;
   color: aliceblue;
-  font-size: 2rem;
+  font-size: 2em;
   border: #2d00f7 solid 3px;
   border-radius: 50px;
   margin: 0px 100px;
   margin-top: 73px;
+  padding: 20px;
 }
 .score {
   display: flex;
